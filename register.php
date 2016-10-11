@@ -29,38 +29,38 @@
 
 			<div class="row">
 				<div class="col-xs-4">
-					First Name: <input type="text" name="" placeholder="Martin" class="form-control">
+					First Name: <input type="text" name="fname" placeholder="Martin" class="form-control">
 				</div>	
 			</div>
 			
 			<div class="row">
 				<div class="col-xs-4">
-					Last Name: <input type="text" name="" placeholder="Peter" class="form-control">
+					Last Name: <input type="text" name="lname" placeholder="Peter" class="form-control">
 				</div>	
 			</div>
 			<div class="row">
 				<div class="col-xs-4">
-					Username  :<input type="text" name="" placeholder="MartinPeter12" class="form-control">
+					Username  :<input type="text" name="uname" placeholder="MartinPeter12" class="form-control">
 				</div>	
 			</div>
 			<div class="row">
 						<div class="col-xs-6">
-							Email ID  :<input type="Email" name="" placeholder="abc@example.com" class="form-control">
+							Email ID  :<input type="Email" name="emailid" placeholder="abc@example.com" class="form-control">
 						</div>	
 			</div>
 			<div class="row">
 						<div class="col-xs-4">
-						Password  :<input type="password" name="" placeholder="Password" class="form-control">
+						Password  :<input type="password" name="pass" placeholder="Password" class="form-control">
 						</div>	
 			</div>
 			<div class="row">
 						<div class="col-xs-4">
-							Confirmed Password:<input type="password" name="" placeholder="Type same Password again" class="form-control">	
+							Confirmed Password:<input type="password" name="cpass" placeholder="Type same Password again" class="form-control">	
 						</div>	
 			</div>
 			<div class="row">
 						<div class="col-xs-3">
-							City      :<input type="" name="text" placeholder="Los Angeles" class="form-control">
+							City      :<input type="text" name="city" placeholder="Los Angeles" class="form-control">
 						</div>	
 			</div><br>
 

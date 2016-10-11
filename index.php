@@ -1,6 +1,3 @@
-
-
-
   <?php include('header.php'); ?> 
 
 <!--Header starts here-->
@@ -10,7 +7,7 @@
 			<h1 id="homeHeading"><span style="color:orange;">Hello</span> <span style="color:green;">Mac</span> <span style="color:orange;">Web</span>
 			</h1>
                 <p>Change your Career. Change your Life.</p>
-                <a href="#about" class="btn btn-primary btn-lg page-scroll">Find Out More</a>
+                <a href="#about" class="btn btn-success btn-lg page-scroll">Find Out More</a>
 		</div>
 	</div>
 </div>
@@ -67,9 +64,3 @@
 <div class="sect sectThree"></div>
 
 <?php include('footer.php');?>
-
-<!--footer here-->
-
-<!-- footer ends here -->
-
-   

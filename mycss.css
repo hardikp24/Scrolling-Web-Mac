@@ -34,10 +34,11 @@ a {
   width: 100%;
 }
 .content-inner h1 {
-  font-weight: lighter;
+  font-weight:lighter;
   /*text-transform: uppercase;*/
   margin-top: 0;
   font-size: 40px;
+  margin-left: 40px;
 }
 .content-inner p {
   font-weight: 300;
@@ -60,7 +61,7 @@ a {
 
 
 .sectOne{
-	background-image: url('Images/pic1.jpg');
+	background-image: url('Images/citylife.jpg');
 }
 
 .sectTwo{
@@ -72,11 +73,15 @@ a {
 }
 
 .sectFour{
-	background-image: url('Images/TURF.jpg');
+	background-image: url('Images/urban-city-street.jpg');
 	height: 50%;
 }
 
-.sectFour h1{text-align: center;color: white;padding-top: 120px;}
+.sectFour h1{
+	text-align: center;
+	color: white;
+	padding-top: 121px;
+}
 
 .sectFive{background-image: url('Images/Street.jpg');}
 
@@ -109,12 +114,13 @@ footer p{
 }
 
 .login{
-	margin-top: 6s0px;
+	margin-top: 60px;
 	position: absolute;
 	margin-left: 40px;
+	z-index: 5;
 }
 
-
+.visible-lg-*
 
 
 
