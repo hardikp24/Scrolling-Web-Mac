@@ -64,17 +64,15 @@
 						</div>	
 			</div><br>
 
-				<div class="control-group">Gender
-					<div class="controls">
-					<input name="gender" id="gender-0" value="Male" type="radio">
-					Male
-					</label>
-					<input name="gender" id="gender-1" value="Female" type="radio">
-					Female
-					</label>
-				</div>
-				</div>
+			<label class="radio-inline">
+				<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">Male
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">Female
+			</label>
+
 		</div>
+
 	<button type="submit" class="btn btn-success">Register Here </button>
 </form>
 
