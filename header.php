@@ -46,7 +46,9 @@
               <li><a href="#">JS</a></li>
 
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">HEADQUARTER <span class="caret"></span></a>
+                <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">HEADQUARTER <span class="caret"></span></a>-->
+
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Locations <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Los Angeles</a></li>
                   <li><a href="#">Mumbai</a></li>
@@ -77,5 +79,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    
+    <script>  
+      $(document).ready(function () {
+      $('.dropdown-toggle').dropdown();
+      });
+    </script>
+
+
   </body>
 </html>
