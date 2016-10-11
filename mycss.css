@@ -78,6 +78,8 @@ a {
 
 .sectFour h1{text-align: center;color: white;padding-top: 120px;}
 
+.sectFive{background-image: url('Images/Street.jpg');}
+
 section{
 	text-align: center;
 	padding: 110px 15px 100px;
@@ -98,4 +100,19 @@ footer p{
 	line-height: 50px;
 	margin-bottom: 0px;
 }
+
+.login{
+	margin-top: 100px;
+	position: absolute;
+	margin-left: 20px;
+}
+
+.register{
+	position:relative;
+	margin-left: 45%;
+	margin-top: 100px}
+
+
+
+
 
