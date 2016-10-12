@@ -28,7 +28,7 @@
 
 <script type="text/javascript">
 function validateForm(){
-	var uname = document.form['myform']['uname'].value;
+	var uname = document.forms['myform']['uname'].value;
 	if (uname == null || uname == "") {
 		alert("User name is required");
 		return false;
@@ -38,7 +38,7 @@ function validateForm(){
 		return false;
 	}
 	
-	var pass = document.form['myform']['pass'].value;
+	var pass = document.forms['myform']['pass'].value;
 	if (pass == null || pass == "") {
 		alert("Password is required");
 		return false;
