@@ -42,8 +42,8 @@
               
               <li class="active"><a href="#">ABOUT <span class="sr-only">(current)</span></a></li>
               
-              <li><a href="#">PHP</a></li>
-              <li><a href="#">JS</a></li>
+              <li><a href="testphp.php">PHP</a></li>
+              <li><a href="testjs.php">JS</a></li>
 
               <li class="dropdown">
                 <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">HEADQUARTER <span class="caret"></span></a>-->
