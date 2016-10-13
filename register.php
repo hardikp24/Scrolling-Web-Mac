@@ -10,8 +10,8 @@
 		<div class="row col-xs-10">
 
 			<div class="form-group">
-				Login ID: 	<input type="text" placeholder="Email" class="form-control">
-				Password: 	<input type="password" placeholder="Password" class="form-control">
+				Login ID: 	<input type="text" name="uname" placeholder="MartinPeter12" class="form-control">
+				Password: 	<input type="password" name="pass" placeholder="Password" class="form-control">
 
 				<div class="checkbox">
 			    	<label><input type="checkbox"> Remember me</label>
@@ -118,6 +118,7 @@
 		var uname = document.forms['loginForm']['uname'].value;
 		if (uname == null || uname == "") {
 			alert('Username is required');
+			/*console.log('Username is required');*/
 			return false;
 		}
 		if (uname.length < 5) {
@@ -127,10 +128,12 @@
 		var pass = document.forms['loginForm']['pass'].value;
 		if (pass == null || pass == "") {
 			alert('Password is required');
+			console.log('Password is required');
 			return false;
 		}
 		if (pass.length < 8) {
 			alert('Password must contain at least 8 characters');
+			/*console.log('Password must contain at least 8 characters');*/
 			return false;
 		}
 	}
