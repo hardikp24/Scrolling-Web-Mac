@@ -9,7 +9,7 @@
 <?php include('header.php'); ?>
 
 <center>
-	<a href="index.php">Home</a>
+	
 	<div class="header">
 
 		<h1 id="heading">Testing JS Scripts</h1> 
@@ -29,9 +29,16 @@
 
 	<label>Choose color to change Background</label>
 	<select name="background" id="background" onchange="changeBackground(this)">
-		<option value="orange">Orange</option>
-		<option value="green">Green</option>
-		<option value="blue">Blue</option>
+		<option value="#6B8E23">OLIVEDRAB</option>
+		<option value="#98FB98">PALEGREEN</option>
+		<option value="#2E8B57">SEAGREEN</option>
+		<option value="#008B8B">DARKCYAN</option>
+		<option value="#F4A460">SANDYBROWN</option>
+		<option value="#DAA520">GOLDENROD</option>
+		<option value="#FFD700">GOLD</option>		
+		<option value="#A9A9A9">DARKGRAY</option>
+		<option value="#4682B4">STEELBLUE</option>
+		<option value="#D2B48C">TAN</option>
 	</select><br><br>
 
 	<button onmouseover="showDate()">What Day is today ?</button><br><br>

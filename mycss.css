@@ -1,7 +1,6 @@
 *{margin: 0;}
 
 /*h1, h2, h3, h4, h5, h6, p{margin-bottom: 20px;}*/
-
 html,body{height: 100%;}
 
 .sect{
@@ -75,19 +74,21 @@ a {
 .sectFour{
 	background-image: url('Images/urban-city-street.jpg');
 	height: 50%;
+	padding-top: 1px;
 }
 
 .sectFour h1{
 	text-align: center;
 	color: white;
-	padding-top: 121px;
+	margin-top: 50px;
+	
 }
 
 .sectFive{background-image: url('Images/Street.jpg');}
 
 section{
 	text-align: center;
-	padding: 110px 15px 100px;
+	margin: 15px 0 15px 0;
 }
 
 footer {
@@ -119,3 +120,8 @@ footer p{
 	margin-left: 40px;
 	z-index: 5;
 }
+
+
+
+
+
