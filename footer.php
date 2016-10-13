@@ -1,9 +1,11 @@
 
 <!--contact us here-->
+
 <div class="sect sectFour">
 	<h1>Thank you for Visiting</h1>
 </div>
 
+<!--
 <section class="contact">
 	<div class="container-fluid">
 		<div class="row">
@@ -17,9 +19,6 @@
 	</div>
 </section> 
 
-
-<!--<div class="sect sectFive"></div>-->
-<!--
 <footer>
 	<p>HOME | ABOUT | SERVICES | CAREER | CONTACT @copyright2016 
 	</p>

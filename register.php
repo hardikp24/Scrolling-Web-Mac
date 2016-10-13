@@ -74,7 +74,7 @@
 		</div>
 
 	<button type="submit" class="btn btn-success">Register Here </button>
-</form>
+</form><br><br>
 
 <!-- Registeration ends here-->
 

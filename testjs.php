@@ -46,10 +46,7 @@
 	<input type="submit" value="Login">
 </form>
 
-
-
 </center>
-
 
 <script type="text/javascript">
 
@@ -95,9 +92,5 @@ function showDate(){
 
 </script>
 
-
-
 </body>
 </html>
-
-

@@ -23,7 +23,7 @@
   <body>
 
 <!-- Navbar starts here -->
-      	<nav class="navbar navbar-inverse navbar-fixed-top" style="position: relative; margin-bottom: 0px;">
+      	<nav class="navbar navbar-inverse navbar-fixed-top" id="mynavbar">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -74,13 +74,11 @@
       </nav>
 <!--Navbar ends here-->
 
-
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-
 
   </body>
 </html>

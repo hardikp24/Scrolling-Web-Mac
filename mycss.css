@@ -3,14 +3,17 @@
 /*h1, h2, h3, h4, h5, h6, p{margin-bottom: 20px;}*/
 html,body{height: 100%;}
 
+#mynavbar{
+	position: relative; margin-bottom: 0px;"
+}
+
 .sect{
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 	text-align: center;
 	color: white;
-
 }
 
 .btn {
@@ -19,6 +22,7 @@ html,body{height: 100%;}
     font-weight: 200;
     /*text-transform: uppercase;*/
 }
+
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -32,6 +36,7 @@ a {
   padding: 150px 15px 100px;
   width: 100%;
 }
+
 .content-inner h1 {
   font-weight:lighter;
   /*text-transform: uppercase;*/
@@ -39,6 +44,7 @@ a {
   font-size: 40px;
   margin-left: 40px;
 }
+
 .content-inner p {
   font-weight: 300;
   color: white;
@@ -46,14 +52,15 @@ a {
   margin-bottom: 30px;
 }
 
+.subSection{
+	height: 30%;
+	background-color: #eaeaea;
+}
+
 .subsection-content{
 	text-align: center;
-  	padding: 130px 15px 100px;
+  	padding: 57px 15px 22px;
   	width: 100%;
-}
-.subSection{
-	height: 50%;
-	background-color: #eaeaea;
 }
 
 .subSection h1{text-align: center;}
@@ -64,27 +71,47 @@ a {
 }
 
 .sectTwo{
-	background-image: url('Images/pic2.jpg');
+	background-image: url('Images/squad.jpg');
 }
 
 .sectThree{
-	background-image: url('Images/pic3.jpg');
+	background-image: url('Images/chicago-street.jpg');
 }
+
+.sectFive{
+	background-image: url('Images/nyc-street.jpg');
+}
+
 
 .sectFour{
 	background-image: url('Images/urban-city-street.jpg');
-	height: 50%;
+	/*height: 75%;*/
 	padding-top: 1px;
 }
 
 .sectFour h1{
 	text-align: center;
 	color: white;
-	margin-top: 50px;
-	
+	padding: 230px 0 230px 20px;
+	margin-top: 160px;
+    font-size: -webkit-xxx-large;
 }
 
-.sectFive{background-image: url('Images/Street.jpg');}
+.register{
+	position:relative;
+	margin-left: 45%;
+	margin-top: 50px
+	margin-bottom: 50px;
+
+}
+
+.login{
+	margin-top: 60px;
+	position: absolute;
+	margin-left: 40px;
+	z-index: 5;
+}
+
 
 section{
 	text-align: center;
@@ -107,19 +134,7 @@ footer p{
 	margin-bottom: 0px;
 }
 
-.register{
-	position:relative;
-	margin-left: 45%;
-	margin-top: 100px
 
-}
-
-.login{
-	margin-top: 60px;
-	position: absolute;
-	margin-left: 40px;
-	z-index: 5;
-}
 
 
 
