@@ -11,7 +11,6 @@
 
 <?php include('header.php'); ?>
 
-
 <div class="main_body">
 
 	<h1 id="heading">Testing JS Scripts</h1> 
