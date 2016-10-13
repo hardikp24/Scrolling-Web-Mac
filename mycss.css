@@ -3,9 +3,7 @@
 /*h1, h2, h3, h4, h5, h6, p{margin-bottom: 20px;}*/
 html,body{height: 100%;}
 
-#mynavbar{
-	position: relative; margin-bottom: 0px;"
-}
+
 
 .sect{
 	height: 100%;
@@ -97,11 +95,15 @@ a {
     font-size: -webkit-xxx-large;
 }
 
+#mynavbar{
+	position:fixed; margin-bottom: 0px;"
+}
+
 .register{
 	position:relative;
 	margin-left: 45%;
-	margin-top: 50px
-	margin-bottom: 50px;
+	/*margin-top: 50px
+	margin-bottom: 50px;*/
 
 }
 
@@ -111,6 +113,18 @@ a {
 	margin-left: 40px;
 	z-index: 5;
 }
+
+.register_login{
+	padding-top: 51px;
+}
+
+
+.main_body {
+	text-align: center;
+	padding-top: 51px;
+
+}
+
 
 
 section{
@@ -133,7 +147,6 @@ footer p{
 	line-height: 50px;
 	margin-bottom: 0px;
 }
-
 
 
 
