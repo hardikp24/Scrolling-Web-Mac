@@ -23,7 +23,7 @@
   <body>
 
 <!-- Navbar starts here -->
-      	<nav class="navbar navbar-inverse navbar-fixed-top">
+      	<nav class="navbar navbar-inverse navbar-fixed-top" style="position: relative;">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">

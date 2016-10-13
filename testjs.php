@@ -6,7 +6,7 @@
 </head>
 <body id="body">
 
-
+<?php include('header.php'); ?>
 
 <center>
 	<a href="index.php">Home</a>
