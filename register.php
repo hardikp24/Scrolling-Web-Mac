@@ -1,3 +1,4 @@
+<title>Register Here</title>
 <?php include('header.php'); ?>
 
 <!-- Login form initiate here-->
