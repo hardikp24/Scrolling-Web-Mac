@@ -1,22 +1,106 @@
-<!-- <!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 	<title>Test Js</title>
 	<link rel="stylesheet" type="text/css" href="">
+	
+<style type="text/css">
+/*
+essential styles:
+these make the slideshow work
+*/
+
+	#slides {
+	    position: relative;
+	    height: 100%;
+	    padding: 0px;
+	    margin: 0px;
+	    list-style-type: none;
+	}
+
+	.slide {
+	    position: absolute;
+	    left: 0px;
+	    top: 0px;
+	    width: 100%;
+	    height: 100%;
+	    opacity: 0;
+	    z-index: 1;
+
+	    -webkit-transition: opacity 1s;
+	    -moz-transition: opacity 1s;
+	    -o-transition: opacity 1s;
+	    transition: opacity 1s;
+	}
+
+	.showing {
+	    opacity: 1;
+	    z-index: 2;
+	}
+
+	/*
+non-essential styles:
+just for appearance; change whatever you want
+*/
+
+	.slide {
+	    font-size: 40px;
+	    padding: 40px;
+	    box-sizing: border-box;
+	    background: #333;
+	    color: #fff;
+	}
+
+	.slide:nth-of-type(1) {
+	    background-image: url('Images/squad.jpg');
+	}
+	.slide:nth-of-type(2) {
+	    background-image: url('Images/citylife.jpg');
+	}
+	.slide:nth-of-type(3) {
+	    background-image: url('Images/nyc-street.jpg');
+	}
+	.slide:nth-of-type(4) {
+	    background-image: url('Images/chicago-street.jpg');
+	}
+	.slide:nth-of-type(5) {
+	    background-image: url('Images/urban-city-street.jpg');
+	}
+</style>
+
 </head>
-<body id="body">
--->
 
 <body id="body">
 
 <?php include('header.php'); ?>
 
+<!--  FOR JAVASCRIPT SLIDE SHOW -->
+
+<ul id="slides">
+    <li class="slide showing">Squad Be Like..</li>
+    <li class="slide">This is London Babyy!!</li>
+    <li class="slide">New York City</li>
+    <li class="slide"> Chicago Cute Ass</li>
+    <li class="slide"> Downtoun LA</li>
+</ul>
+
+<script type="text/javascript">
+	var slides = document.querySelectorAll('#slides .slide');
+	var currentSlide = 0;
+	var slideInterval = setInterval(nextSlide,2000);
+
+	function nextSlide() {
+	    slides[currentSlide].className = 'slide';
+	    currentSlide = (currentSlide+1)%slides.length;
+	    slides[currentSlide].className = 'slide showing';
+	}
+</script>
+
+<!-- SLIDESHOW ENDS HERE  -->
+
 <div class="main_body">
 
 	<h1 id="heading">Testing JS Scripts</h1> 
-
-	<p>With Hardik Patil<br> This is page only for testing... </p>
-
 	<h2>Entry Form</h2>
 	<form name="myform" action="#" method="POST" onsubmit="return validateForm()">
 
@@ -46,8 +130,6 @@
 		<input type="submit" value="Login">
 	</form>	
 </div>
-
-
 
 
 
@@ -94,6 +176,8 @@ function showDate(){
 }
 
 </script>
+
+
 
 </body>
 </html>
