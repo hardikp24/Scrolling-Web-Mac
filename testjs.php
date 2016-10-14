@@ -177,7 +177,6 @@ function showDate(){
 
 </script>
 
-
-
+<?php include('footer.php') ?>
 </body>
 </html>
