@@ -20,9 +20,9 @@
 
 
 	if (isset($_SESSION['id'])) { /*This session variable gonna check if id column from DB set or not*/
-		echo 'My user id is '.$_SESSION['id']; /*It gonna display your user ID*/
+		echo "<p class='pCenter'> Hi there user!</p> "; /*It gonna display your user ID*/
 	} else {
-		echo "Hey You are not logged in!";
+		echo "<p class='pCenter' >You are not logged in!</p>";
 	}
 
 ?>
@@ -36,15 +36,17 @@
 
 	else{ /* Otherwise create register for new account*/
 
-		echo "<h1>Register Here</h1><br>
-			<form action='includes/signup.inc.php' method='POST'>
-				<input type='text' name='fname' placeholder='First Name'><br><br>
-				<input type='text' name='lname' placeholder='Last Name'><br><br>
-				<input type='text' name='uid' placeholder='Create User Name'><br><br>
-				<input type='password' name='pass' placeholder='Create Password'><br><br>
-				<input type='text' name='city' placeholder='City'><br><br>
-				<button type='submit'>Register'</button>
-			</form>";
+		echo "<p class='pCenter'> Register Here </p><br>
+			<div class='form-box'>
+				<form class='signupform' action='includes/signup.inc.php' method='POST'>
+					<input type='text' name='fname' placeholder='First Name'><br><br>
+					<input type='text' name='lname' placeholder='Last Name'><br><br>
+					<input type='text' name='uid' placeholder='Create User Name'><br><br>
+					<input type='password' name='pass' placeholder='Create Password'><br><br>
+					<input type='text' name='city' placeholder='City'><br><br>
+					<button type='submit'>Register</button>
+				</form>
+			</div>";
 	}
 
 ?>

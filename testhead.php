@@ -9,7 +9,7 @@
 	<title>Home | Testing PHP</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body style="background-color: #A9A9A9;">
 <!--This is header page that we are gonna include to everywhere as possible-->
 <header> <!--This is header on top -->
 	<nav>
