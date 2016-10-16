@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'dbh.php';
+include '../dbh.php';
 
 $uid = $_POST['uid'];
 $pass = $_POST['pass'];
@@ -18,6 +18,6 @@ if (!$row = mysqli_fetch_assoc($result)) {
 	$_SESSION['id'] = $row['id'];
 }
 
-header("Location: testphp.php");
+header("Location: ../testphp.php");
 
 ?>

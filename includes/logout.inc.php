@@ -2,5 +2,5 @@
 
 session_start();
 session_destroy();
-header("Location: testphp.php");
+header("Location: ../testphp.php");
 ?>
