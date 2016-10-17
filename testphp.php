@@ -4,12 +4,13 @@
 
 <div class="form-box">
 	<div class="wrapper">
-		<form action="" method="">
-			<input type="text" name="first" placeholder="First Name"><br>
-			<input type="text" name="last" placeholder="Last Name"><br>
+	<h2>Contact us here!</h2><br>
+		<form action="feedbackForm.php" method="GET">
+			<input type="text" name="c_name" placeholder="Name"><br>
+			<input type="email" name="c_email" placeholder="Email Id"><br><!--
 			<input type="radio" class="form-radio" name="gender" value="Male"> <p>Male</p><br>
-			<input type="radio" class="form-radio" name="gender" value="Female"> <p>Female</p><br><br><br>
-			<textarea name="message" placeholder="Feedback Us Here"></textarea><br><br>
+			<input type="radio" class="form-radio" name="gender" value="Female"> <p>Female</p><br><br><br>-->
+			<textarea name="c_msg" placeholder="Write query or Feedback Us Here"></textarea><br><br>
 			<button type="submit">Submit</button>
 
 		</form>
