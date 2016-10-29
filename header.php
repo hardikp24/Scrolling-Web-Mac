@@ -42,7 +42,7 @@
               
               <li class="active"><a href="#">ABOUT <span class="sr-only">(current)</span></a></li>
               
-              <li><a href="testphp.php">PHP</a></li>
+              <li><a href="PHP_tutorial/testphp.php">PHP</a></li>
               <li><a href="testjs.php">JS</a></li>
               <li><a href="#">Jquery</a></li>
 
